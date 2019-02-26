@@ -1,0 +1,31 @@
+.nav-bar {
+    color: white;
+    background: #d92838;
+    overflow: hidden;
+    opacity: 0.9;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.app-name {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+li span{
+    color: white;
+}
+li a{
+    color: white;
+    font-size: 16px;
+}
+li:hover {
+    background: white;
+}
+li a:hover {
+    color: #d92838;
+}
+li span:hover {
+    color: #d92838;
+}   

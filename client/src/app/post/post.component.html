@@ -1,0 +1,19 @@
+<div class="card row post">
+  <div class="col-md-3 col-xs-12 post-img">
+    <img class="card-img-top" src="{{feed.urlToImage}}" alt="Card image">
+  </div>
+  <div class="card-body col-md-9 col-xs-12 post-body">
+    <div class="row desc">
+      <div class="col-md-6 col-xs-6">
+        <span>Auther : {{feed.author}}</span>
+      </div>
+      <div class="col-md-6 col-xs-6 text-right">
+        <span>publishedAt:{{feed.publishedAt}}</span>
+      </div>
+    </div>
+    <h4 class="card-title post-title">{{feed.title}}</h4>
+    <p class="card-text post-text">{{feed.description}}</p>
+    <a href="{{feed.url}}" target="_blank">Read more...</a>
+
+  </div>
+</div>

@@ -1,0 +1,21 @@
+<div class="container login card">
+  <h2 class="text-center"> Login </h2>
+  <form class="login-form" (submit)="onClick()">
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input (keyup)="getDataFeild($event)" type="email" class="form-control" id="email" required>
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input (keyup)="getDataFeild($event)" type="password" class="form-control" id="password" required>
+    </div>
+
+    <div class="form-group form-check">
+      <input (keyup)="getDataFeild($event)" type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Remmber me</label>
+    </div>
+
+    <button type="submit" class="btn btn-block btn-login">Login</button>
+  </form>
+  
+</div>

@@ -1,0 +1,35 @@
+h2 {
+    color: #d92838;
+}
+label {
+    color: #333;
+}
+.login {
+    width: 40rem;
+    margin: auto;
+    padding: 20px;
+    background-color: #fafafa ;
+    opacity: 0.9;
+    border-radius: 10px;
+    text-align: start;
+    margin-top:150px ;
+}
+
+.login-form {
+    margin-top: 30px;
+}
+input {
+    border: solid 1px #d92838;
+}
+.btn-login {
+    background: #d92838;
+    color: #fafafa;
+    font-size: 18px;
+}
+
+.btn-login:hover{
+    background: #fafafa;
+    color: #d92838;
+    border: solid 1px #d92838;
+    font-weight: bold;  
+}

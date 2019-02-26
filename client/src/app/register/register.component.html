@@ -1,0 +1,23 @@
+<div class="container register card">
+  <h2 class="text-center"> Register </h2>
+  <form class="register-form" (submit)= "onClick($event)" >
+    <div class="form-group">
+      <label for="fullName">FullName</label>
+      <input (keyup)="getDataFeild($event)" type="text" class="form-control" id="fullName" aria-describedby="fullName" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input (keyup)="getDataFeild($event)" type="email" class="form-control" id="email"  required>
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input (keyup)="getDataFeild($event)" type="password" class="form-control" id="password" required>
+    </div>
+
+    <div class="form-group form-check">
+      <input  type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Remmber me</label>
+    </div>
+    <button  type="submit" class="btn btn-block btn-register">Register</button>
+  </form>
+</div>
